@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Kinect V2 Plugin",
+	"Description": "Kinect V2 Plugin",
+	"Category": "NUI.Devices",
+	"CreatedBy": "Leon Rosengarten",
+	"CreatedByURL": "www.youtube.com/lion03",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.19.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "KinectV2",
+			"Type": "Runtime",
+			"LoadingPhase" : "PreLoadingScreen",
+			"WhitelistPlatforms" : [ "Win64", "Win32"]
+		},
+		{
+			"Name" : "KinectV2Editor",
+			"Type" : "Editor"
+		}
+	]	
+}

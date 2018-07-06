@@ -1,0 +1,8 @@
+{
+	"BuildId": "3944462",
+	"Modules": 
+	{
+		"KinectV2": "UE4Editor-KinectV2.dll",
+		"KinectV2Editor": "UE4Editor-KinectV2Editor.dll"
+	}
+}
